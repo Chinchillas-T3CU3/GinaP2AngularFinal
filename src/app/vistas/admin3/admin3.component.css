@@ -1,0 +1,126 @@
+.contenido {
+    background-color: #ffffff;
+    color: #1e1e1e;
+    padding: 6rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    margin-top: 6rem;
+  
+  }
+  .todo{
+    padding-top: 7rem;
+    width: 70%;
+    margin: auto auto;
+    text-align: center;
+  }
+  
+  .contenido h1, .contenido h2 {
+    color: #1e1e1e;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  
+  table.mat-table {
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: auto auto;
+  }
+  
+  .mat-header-cell {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #1e1e1e;
+  }
+  
+  .mat-cell {
+    color: #333333;
+  }
+  
+  .mat-row:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  button[mat-icon-button] {
+    color: #b87333;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[mat-icon-button]:hover {
+    background-color: rgba(184, 115, 51, 0.15);
+  }
+  
+  /* Formulario */
+  form.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  mat-form-field.full-width {
+    width: 100%;
+  }
+  
+  .mat-form-field.mat-focused .mat-form-field-outline {
+    color: #b87333 !important;
+    border-color: #b87333 !important;
+  }
+  
+  .mat-select-arrow {
+    color: #b87333;
+  }
+  
+  .mat-datepicker-toggle {
+    color: #b87333;
+  }
+  
+  .mat-radio-button {
+    margin-right: 1rem;
+    color: #1e1e1e;
+  }
+  
+  .mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color: #b87333;
+  }
+  
+  .mat-radio-button.mat-accent .mat-radio-outer-circle {
+    border-color: #b87333;
+  }
+  
+  /* Botón principal */
+  button[mat-raised-button] {
+    background-color: #b87333;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  button[mat-raised-button]:hover {
+    background-color: #a25929;
+  }
+  
+  mat-error {
+    color: #d32f2f;
+    font-size: 0.85rem;
+  }
+  .regresar {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    background-color: #b87333;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 30px 0px ;
+    width: 100%;
+  }
+  
+  .regresar:hover {
+    background-color: #a25929;
+    transform: scale(1.03);
+  }

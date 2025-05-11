@@ -1,0 +1,13 @@
+@if(getVideoUrl()){
+    <div>
+      <iframe
+        width="650"
+        height="415"
+        [src]="getVideoUrl() | safeUrl"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </div>
+  }
+  
+  

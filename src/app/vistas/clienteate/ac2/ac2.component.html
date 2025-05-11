@@ -1,0 +1,56 @@
+<div class="principal">
+    <div class="buscador">
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">folio</span>
+        <input
+          type="text"
+          class="form-control"
+          [(ngModel)]="inputValor"
+        
+          placeholder="Ej: av03,av04,av05"
+          aria-label="folio"
+          aria-describedby="addon-wrapping"
+        />
+      </div>
+      <button class="btn-ejecutar" (click)="actualizarPasos()">Actualizar pasos</button>
+    </div>
+  
+    <div class="linea">
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 11l3 3L22 4"></path>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+        </svg>
+        
+        <p [ngStyle]="getStepStyle(0)">papeleo generado</p>
+      </div>
+  
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 11l3 3L22 4"></path>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+        </svg>
+        
+        <p [ngStyle]="getStepStyle(1)">papeleo autorizado</p>
+      </div>
+  
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 11l3 3L22 4"></path>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+        </svg>
+        
+        <p [ngStyle]="getStepStyle(2)">carro en agencia</p>
+      </div>
+  
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="green" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 11l3 3L22 4"></path>
+          <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+        </svg>
+        
+        <p [ngStyle]="getStepStyle(3)">carro entregado</p>
+      </div>
+    </div>
+  </div>
+  

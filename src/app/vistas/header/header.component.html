@@ -1,0 +1,23 @@
+<header class="navbar">
+    <div class="logo"><a href="" routerLink="/principal"><img src="assets/CupraLogo.png"  height="50px"  ></a> </div>
+    
+    <div class="inicios">
+      <p>{{nombre}}</p>
+     
+      <!-- <button (click)="cerrar()"><span class="icon"><img src="/opciones.png" alt=""></span></button> -->
+      <button (click)="toggleMenu()">
+        <span class="icon">
+          <img src="assets/opciones.png" alt="">
+        </span>
+      </button>
+    </div>
+    <div class="sidebar"  [ngClass]="{'active': menuAbierto}">
+      <ul>
+      
+  
+        <li><a routerLink="/login">Login Administrador </a></li>
+        <li><a (click)="cerrar()">Logout</a></li>
+      </ul>
+    </div>
+    
+  </header>
