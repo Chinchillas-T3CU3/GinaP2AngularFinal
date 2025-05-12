@@ -40,7 +40,7 @@
             <mat-label>Auto a probar</mat-label>
             <mat-select name="autoAProbar" [(ngModel)]="prueba.autoAProbar" required #auto="ngModel">
             @for(auto of crupaAutos; track auto){
-                <mat-option [value]="auto">{{auto}}</mat-option>
+                <mat-option [value]="auto" [ngStyle]="{ 'background-color': 'white' }">{{auto}}</mat-option>
             }
             </mat-select>
             @if(auto.invalid && auto.touched){

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.mat-calendar {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  .mat-calendar-body-cell {
+    background-color: white !important;
+  }
+  
+  .mat-calendar-body-cell-content {
+    background-color: white !important;
+    color: black !important;
+  }

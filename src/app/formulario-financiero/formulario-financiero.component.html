@@ -40,7 +40,7 @@
           <mat-label>Banco</mat-label>
           <mat-select formControlName="banco">
             @for (banco of bancos; track banco) {
-              <mat-option [value]="banco">{{ banco }}</mat-option>
+              <mat-option  [value]="banco" [ngStyle]="{ 'background-color': 'white' }">{{ banco }}</mat-option>
             }
           </mat-select>
           
@@ -68,7 +68,7 @@
         <mat-label>Mensualidades</mat-label>
         <mat-select formControlName="pago">
           @for (mensualidad of mensualidades; track mensualidad) {
-            <mat-option [value]="mensualidad">{{ mensualidad }}</mat-option>
+            <mat-option [value]="mensualidad" [ngStyle]="{ 'background-color': 'white' }">{{ mensualidad }}</mat-option>
           }
         </mat-select>
         
